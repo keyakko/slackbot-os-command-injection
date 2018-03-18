@@ -39,3 +39,7 @@ services:
     charp-shell:
         image: odanado/os-command-injection:csharp-shell
         build: langs/csharp-shell
+
+    go:
+        image: odanado/os-command-injection:go
+        build: langs/go
