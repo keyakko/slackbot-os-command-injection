@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+import "os"
 import "io/ioutil"
 
 func main() {
