@@ -1,8 +1,10 @@
 package main
 
 import "fmt"
+import "io/ioutil"
 
 func main() {
-  fmt.Printf("Hello world\n")
+  content := []byte("hello world\n")
+  ioutil.WriteFile("test.stdout", content, os.ModePerm)
 }
 
